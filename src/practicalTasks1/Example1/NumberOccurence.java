@@ -4,15 +4,15 @@ import java.util.Arrays;
 
 public class NumberOccurence {
     public static void main(String[] args) {
-        int n = 30;
+        int n = 50;
         int arr[] = new int[n];
         for (int i = 0; i < n; i++) {
             arr[i] = (int) (Math.random() * 10);
             System.out.print(arr[i] + " ");
         }
-        int a = 5;
+        int a = 2;
         int arrVozoutA[] = numOcc(arr, a);
-        System.out.println();
+        System.out.println("\nУдаляем из массива элемент " + a + ": ");
         for (int i = 0; i < arrVozoutA.length; i++) {
             System.out.print(arrVozoutA[i] + " ");
         }
