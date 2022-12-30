@@ -1,6 +1,6 @@
-package practicalTasks1;
+package practicalTasks1.Example1;
 
-public class MaxMinAvValue {
+public class MaxMinAvValues {
     public static void main(String[] args) {
         // создать массив из целых чисел размером n
         int n = 100;
@@ -27,11 +27,8 @@ public class MaxMinAvValue {
         for(int i = 0; i < arr.length; i++) {
             avarage += arr[i];
         }
-                avarage = avarage/arr.length;
+        avarage = avarage/arr.length;
 
         System.out.println("Среднее значение массива равно: " + avarage);
-
     }
-
-
 }
